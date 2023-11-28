@@ -1,5 +1,5 @@
 let installPrompt = null;
-const installButton = document.querySelector('#install');
+const installButton = document.getElementById('install');
 
 window.addEventListener("beforeinstallprompt", (event) => {
     event.preventDefault();
