@@ -1,7 +1,6 @@
 const cacheName = 'my-cache';
 
 const resourcesToCache = [
-    '/',
     'index.html',
     'add.html',
     'fetch.js',
